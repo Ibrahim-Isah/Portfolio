@@ -1,0 +1,75 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+    :root {
+        /* Black, White, and Ash Theme */
+        --background: 0 0% 5%;
+        --background-light: 0 0% 8%;
+        --background-glass: 0 0% 10% / 0.7;
+        --foreground: 0 0% 95%;
+
+        --card: 0 0% 8%;
+        --card-foreground: 0 0% 95%;
+        --popover: 0 0% 8%;
+        --popover-foreground: 0 0% 95%;
+
+        --primary: 0 0% 100%;
+        --primary-foreground: 0 0% 5%;
+        --secondary: 220 14% 83%;
+        --secondary-foreground: 0 0% 5%;
+        --muted: 220 14% 14%;
+        --muted-foreground: 220 14% 65%;
+        --accent: 220 14% 14%;
+        --accent-foreground: 0 0% 95%;
+        --destructive: 0 62.8% 45%;
+        --destructive-foreground: 0 0% 95%;
+        --border: 220 14% 20%;
+        --input: 220 14% 14%;
+        --ring: 220 14% 83%;
+        --chart-1: 220 70% 50%;
+        --chart-2: 160 60% 45%;
+        --chart-3: 30 80% 55%;
+        --chart-4: 280 65% 60%;
+        --chart-5: 340 75% 55%;
+    }
+}
+
+@layer base {
+    ::-webkit-scrollbar {
+        display: none;
+    }
+    * {
+        @apply border-border !cursor-none;
+    }
+    body {
+        @apply bg-background text-foreground font-roboto-flex;
+    }
+}
+
+@layer components {
+    .grid {
+        @apply gap-[25px];
+    }
+
+    .markdown-text ul {
+        @apply pl-5 mt-2 list-disc;
+    }
+
+    .glass-card {
+        @apply bg-background-glass backdrop-blur-md border border-white/10 shadow-lg;
+    }
+
+    .glass-button {
+        @apply bg-white/10 backdrop-blur-sm border border-white/20 hover:bg-white/20 transition-all duration-300;
+    }
+
+    .text-gradient {
+        @apply bg-gradient-to-r from-white to-ash-300 bg-clip-text text-transparent;
+    }
+
+    .glow-effect {
+        @apply shadow-lg shadow-white/20;
+    }
+}
