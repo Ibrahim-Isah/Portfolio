@@ -81,21 +81,23 @@ const Skills = () => {
                                     <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
                                         {value.map((item) => (
                                             <div
-                                                className="slide-up group flex flex-col items-center gap-3 p-4 rounded-lg hover:bg-white/5 transition-all duration-300"
+                                                className="slide-up"
                                                 key={item.name}
                                             >
-                                                <div className="w-12 h-12 flex items-center justify-center rounded-lg bg-white/10 backdrop-blur-sm border border-white/20 group-hover:bg-white/20 transition-all duration-300">
-                                                    <Image
-                                                        src={item.icon}
-                                                        alt={item.name}
-                                                        width="32"
-                                                        height="32"
-                                                        className="max-h-8 max-w-8 object-contain"
-                                                    />
+                                                <div className=" group flex flex-col items-center gap-3 p-4 rounded-lg hover:bg-white/5 transition-all duration-300">
+                                                    <div className="w-12 h-12 flex items-center justify-center rounded-lg bg-white/10 backdrop-blur-sm border border-white/20 group-hover:bg-white/20 transition-all duration-300">
+                                                        <Image
+                                                            src={item.icon}
+                                                            alt={item.name}
+                                                            width="32"
+                                                            height="32"
+                                                            className="max-h-8 max-w-8 object-contain"
+                                                        />
+                                                    </div>
+                                                    <span className="text-sm font-medium text-ash-300 group-hover:text-white transition-colors duration-300 text-center">
+                                                        {item.name}
+                                                    </span>
                                                 </div>
-                                                <span className="text-sm font-medium text-ash-300 group-hover:text-white transition-colors duration-300 text-center">
-                                                    {item.name}
-                                                </span>
                                             </div>
                                         ))}
                                     </div>

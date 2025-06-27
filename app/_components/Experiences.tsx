@@ -63,39 +63,41 @@ const Experiences = () => {
                     {MY_EXPERIENCE.map((item, index) => (
                         <div
                             key={`${item.company}-${item.title}-${index}`}
-                            className="experience-item glass-card p-8 rounded-xl hover:glow-effect transition-all duration-500"
+                            className="experience-item"
                         >
-                            <div className="flex flex-col md:flex-row md:items-center md:justify-between mb-4">
-                                <div className="flex-1">
-                                    <p className="text-xl text-ash-300 mb-2">
-                                        {item.company}
-                                    </p>
-                                    <h3 className="text-3xl md:text-4xl font-anton leading-none text-white mb-2">
-                                        {item.title}
-                                    </h3>
-                                    <p className="text-lg text-ash-400 mb-2">
-                                        {item.duration}
-                                    </p>
-                                    {item.location && (
-                                        <p className="text-sm text-ash-500">
-                                            📍 {item.location}
+                            <div className=" glass-card p-8 rounded-xl hover:glow-effect transition-all duration-500">
+                                <div className="flex flex-col md:flex-row md:items-center md:justify-between mb-4">
+                                    <div className="flex-1">
+                                        <p className="text-xl text-ash-300 mb-2">
+                                            {item.company}
                                         </p>
-                                    )}
-                                </div>
-                                <div className="text-right mt-4 md:mt-0">
-                                    <div className="inline-flex items-center justify-center w-12 h-12 rounded-full bg-white/10 backdrop-blur-sm border border-white/20 text-white font-bold text-lg">
-                                        {index + 1}
+                                        <h3 className="text-3xl md:text-4xl font-anton leading-none text-white mb-2">
+                                            {item.title}
+                                        </h3>
+                                        <p className="text-lg text-ash-400 mb-2">
+                                            {item.duration}
+                                        </p>
+                                        {item.location && (
+                                            <p className="text-sm text-ash-500">
+                                                📍 {item.location}
+                                            </p>
+                                        )}
+                                    </div>
+                                    <div className="text-right mt-4 md:mt-0">
+                                        <div className="inline-flex items-center justify-center w-12 h-12 rounded-full bg-white/10 backdrop-blur-sm border border-white/20 text-white font-bold text-lg">
+                                            {index + 1}
+                                        </div>
                                     </div>
                                 </div>
-                            </div>
 
-                            {item.description && (
-                                <div className="border-t border-white/10 pt-4">
-                                    <p className="text-ash-300 leading-relaxed">
-                                        {item.description}
-                                    </p>
-                                </div>
-                            )}
+                                {item.description && (
+                                    <div className="border-t border-white/10 pt-4">
+                                        <p className="text-ash-300 leading-relaxed">
+                                            {item.description}
+                                        </p>
+                                    </div>
+                                )}
+                            </div>
                         </div>
                     ))}
                 </div>
