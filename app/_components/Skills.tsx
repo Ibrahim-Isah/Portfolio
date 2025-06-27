@@ -50,7 +50,7 @@ const Skills = () => {
             });
 
             tl.to(containerRef.current, {
-                y: -200,
+                y: -150,
                 opacity: 0,
             });
         },

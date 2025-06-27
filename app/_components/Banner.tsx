@@ -40,7 +40,7 @@ const Banner = () => {
             <div className="absolute inset-0 bg-gradient-to-br from-white/5 via-transparent to-ash-900/20 pointer-events-none" />
 
             <div
-                className="container h-[100svh] min-h-[530px] max-md:pb-10 flex justify-between items-center max-md:flex-col relative z-3"
+                className="container px-5 md:px-auto h-[100svh] min-h-[530px] max-md:pb-10 flex justify-between items-center max-md:flex-col relative z-3"
                 ref={containerRef}
             >
                 <div className="max-md:grow max-md:flex flex-col justify-center items-start max-w-[600px]">
@@ -61,7 +61,7 @@ const Banner = () => {
                         complex enterprise systems using React, TypeScript, and
                         modern web technologies.
                     </p>
-                    <div className="flex gap-4 mt-9">
+                    <div className="flex flex-wrap gap-4 mt-9">
                         <Button
                             as="link"
                             target="_blank"
