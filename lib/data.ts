@@ -244,7 +244,7 @@ export const PROJECTS: IProject[] = [
         year: 2023,
         description: `Built a robust chat feature for mobile application handling 50,000+ daily active users with real-time communication capabilities and optimized performance.`,
         role: `Lead Mobile Developer <br/>
-        - 💬 Developed chat system serving 50K+ daily active users<br/>
+        - 💬 Developed chat system serving 10K+ daily active users<br/>
         - ⚡ Reduced message latency by 200ms through WebSocket optimization<br/>
         - 📱 Built with React Native for cross-platform compatibility<br/>
         - 🔄 Implemented efficient state management with Redux<br/>
@@ -265,7 +265,7 @@ export const PROJECTS: IProject[] = [
         description: `Developed a comprehensive loan management platform from ideation to launch, handling 50,000+ users with scalable architecture and modern UI components.`,
         role: `Full-Stack Developer <br/>
         - 🏦 Built complete loan management system from scratch<br/>
-        - 👥 Designed for 50K+ user capacity with scalable architecture<br/>
+        - 👥 Designed for 10K+ user capacity with scalable architecture<br/>
         - 🎨 Created reusable UI components with Material-UI<br/>
         - 🔥 Integrated Firebase for real-time data management<br/>
         - 📊 Implemented comprehensive user analytics and reporting`,
@@ -308,7 +308,7 @@ export const MY_EXPERIENCE = [
     {
         title: 'Senior Frontend Engineer',
         company: 'NEXT BASKET',
-        duration: 'Feb 2024 - Present',
+        duration: 'Feb 2024 - Mar 2025',
         location: 'Sofia, Bulgaria (Remote)',
         description:
             'Key role in launching NEXT BASKET in 3 new countries, contributing to millions of users growth.',
@@ -319,7 +319,7 @@ export const MY_EXPERIENCE = [
         duration: 'Jan 2021 - Feb 2024',
         location: 'Texas, USA (Remote)',
         description:
-            'Developed complex web and mobile applications, led JavaScript to TypeScript migration, built chat features for 50K+ daily users.',
+            'Developed complex web and mobile applications, led JavaScript to TypeScript migration, built chat features for 10K+ daily users.',
     },
     {
         title: 'Frontend Developer',
@@ -327,6 +327,6 @@ export const MY_EXPERIENCE = [
         duration: 'Jan 2021 - June 2022',
         location: 'Kano, Nigeria',
         description:
-            'Built loan management platform handling 50K+ users, optimized company website improving Lighthouse scores from 45 to 90+.',
+            'Built loan management platform handling 10K+ users, optimized company website improving Lighthouse scores from 45 to 90+.',
     },
 ];

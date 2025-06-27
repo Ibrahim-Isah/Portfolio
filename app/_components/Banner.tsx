@@ -104,7 +104,7 @@ const Banner = () => {
                     </div>
                     <div className="slide-up-and-fade glass-card p-4 rounded-lg">
                         <h5 className="text-3xl sm:text-4xl font-anton text-white mb-1.5 glow-effect">
-                            50K+
+                            10K+
                         </h5>
                         <p className="text-ash-300">
                             Daily Active Users Served

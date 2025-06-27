@@ -24,7 +24,7 @@ const Experiences = () => {
             });
 
             tl.from('.experience-item', {
-                y: 50,
+                y: 80,
                 opacity: 0,
                 stagger: 0.3,
             });
@@ -44,7 +44,7 @@ const Experiences = () => {
             });
 
             tl.to(containerRef.current, {
-                y: -150,
+                y: -200,
                 opacity: 0,
             });
         },
@@ -104,7 +104,7 @@ const Experiences = () => {
                 <div className="mt-16 grid md:grid-cols-3 gap-6">
                     <div className="glass-card p-6 rounded-xl text-center">
                         <div className="text-3xl font-anton text-white mb-2">
-                            50K+
+                            10K+
                         </div>
                         <div className="text-ash-300">
                             Daily Active Users Managed

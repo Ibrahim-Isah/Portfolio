@@ -109,7 +109,7 @@ const AboutMe = () => {
                                     of applications across multiple countries.
                                     I&apos;ve increased test coverage from 70%
                                     to 90%+, reduced production issues by 50%,
-                                    and built chat features handling 50K+ daily
+                                    and built chat features handling 10K+ daily
                                     active users.
                                 </p>
                             </div>
