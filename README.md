@@ -6,10 +6,6 @@
 
 Please also note that I did not build this site with the intention of it being a starter theme, so if you have questions about implementation, please refer to the [Next.js docs](https://nextjs.org/docs).
 
-### TL;DR
-
-Yes, you can fork this repo. Please give me proper credit by linking back to [me.toinfinite.dev](https://www.me.toinfinite.dev/). Thanks!
-
 ## 🛠 Installation & Set Up
 
 First, run the development server:
@@ -28,7 +24,4 @@ If you'd like to contribute or suggest improvements, feel free to open an issue 
 ## Credit
 
 _This readme is inspired from [Brittany Chiang's github](https://github.com/bchiang7/v4)_
-
-## 📄 License
-
-This project is open source and available under the [MIT License](https://github.com/Tajmirul/portfolio-2.0/blob/main/LICENSE).
+\_This project was inspired from [Tajmirul Portfolio](https://github.com/Tajmirul/portfolio-2.0/blob/main/LICENSE)
