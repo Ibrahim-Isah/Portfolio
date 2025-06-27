@@ -2,17 +2,14 @@ import { IProject } from '@/types';
 
 export const GENERAL_INFO = {
     email: 'isahibn08@gmail.com',
-
     emailSubject: "Let's collaborate on a project",
     emailBody: 'Hi Isah, I am reaching out to you because...',
-
-    oldPortfolio: 'https://www.legacy.me.toinfinite.dev',
 };
 
 export const SOCIAL_LINKS = [
     { name: 'github', url: 'https://github.com/Ibrahim-Isah' },
     { name: 'linkedin', url: 'https://www.linkedin.com/in/isah-ibrahim' },
-    { name: 'hashnode', url: 'https://hashnode.com/@IsahAbraham' },
+    { name: 'hashnode', url: 'https://isahibrahim.hashnode.dev/' },
 ];
 
 // Education & Certifications Data
@@ -70,6 +67,10 @@ export const MY_STACK = {
             icon: '/logo/react.png',
         },
         {
+            name: 'Expo App',
+            icon: '/logo/expo.png',
+        },
+        {
             name: 'Redux',
             icon: '/logo/redux.png',
         },
@@ -96,8 +97,8 @@ export const MY_STACK = {
             icon: '/logo/express.png',
         },
         {
-            name: 'C#',
-            icon: '/logo/cs.png',
+            name: 'NextJs',
+            icon: '/logo/next.png',
         },
     ],
     database: [
@@ -112,10 +113,6 @@ export const MY_STACK = {
         {
             name: 'Prisma',
             icon: '/logo/prisma.png',
-        },
-        {
-            name: 'Firebase',
-            icon: '/logo/firebase.png',
         },
     ],
     tools: [

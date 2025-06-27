@@ -76,11 +76,21 @@ const Banner = () => {
                             as="link"
                             target="_blank"
                             rel="noopener noreferrer"
-                            href="https://hashnode.com/@IsahAbraham"
+                            href="https://isahibrahim.hashnode.dev/"
                             variant="secondary"
                             className="banner-button slide-up-and-fade glass-button"
                         >
                             Technical Writing
+                        </Button>
+                        <Button
+                            as="link"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            href="https://drive.google.com/file/d/1rbih0rLwcYhhASDkCt62ClFrK0131Est/view?usp=drivesdk"
+                            variant="secondary"
+                            className="banner-button slide-up-and-fade glass-button"
+                        >
+                            Resume
                         </Button>
                     </div>
                 </div>
