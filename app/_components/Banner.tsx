@@ -18,7 +18,7 @@ const Banner = () => {
             const tl = gsap.timeline({
                 scrollTrigger: {
                     trigger: containerRef.current,
-                    start: 'bottom 70%',
+                    start: 'bottom 90%',
                     end: 'bottom 10%',
                     scrub: 1,
                 },
@@ -40,10 +40,10 @@ const Banner = () => {
             <div className="absolute inset-0 bg-gradient-to-br from-white/5 via-transparent to-ash-900/20 pointer-events-none" />
 
             <div
-                className="container px-5 md:px-auto h-[100svh] min-h-[530px] max-md:pb-10 flex justify-between items-center max-md:flex-col relative z-3"
+                className="container space-y-4 px-5 md:px-auto h-[100svh] min-h-[530px] max-md:pb-10 flex justify-between items-center max-md:flex-col relative z-3"
                 ref={containerRef}
             >
-                <div className="max-md:grow max-md:flex flex-col justify-center items-start max-w-[600px]">
+                <div className="max-md:grow max-md:flex flex-col justify-center items-start max-w-[600px] mt-24 md:mt-auto">
                     <h1 className="banner-title slide-up-and-fade leading-[.95] text-6xl sm:text-[80px] font-anton">
                         <span className="text-gradient">SENIOR</span>
                         <br />

@@ -141,7 +141,7 @@ export const MY_STACK = {
 
 export const PROJECTS: IProject[] = [
     {
-        title: 'AI-Powered Interview Platform',
+        title: 'AgentZane - AI Interview Platform',
         slug: 'ai-interview-platform',
         liveUrl: '#',
         year: 2024,
@@ -166,7 +166,7 @@ export const PROJECTS: IProject[] = [
       </ul>
       `,
         role: `
-      Lead Frontend Developer <br/>
+      Senior Frontend Developer <br/>
       Key responsibilities:
       <ul>
         <li>🎯 Architecture: Designed scalable frontend architecture with React and TypeScript</li>
@@ -187,11 +187,12 @@ export const PROJECTS: IProject[] = [
             'TailwindCSS',
             'Python',
         ],
-        thumbnail: '/projects/thumbnail/ai-interview.jpg',
-        longThumbnail: '/projects/long/ai-interview.jpg',
+        thumbnail: '/projects/thumbnail/ai-interview.png',
+        longThumbnail: '/projects/thumbnail/ai-interview.png',
         images: [
             '/projects/images/ai-interview-1.png',
             '/projects/images/ai-interview-2.png',
+            '/projects/images/ai-interview-3.png',
         ],
     },
     {
@@ -206,11 +207,11 @@ export const PROJECTS: IProject[] = [
             'TailwindCSS',
             'Microservices',
         ],
-        thumbnail: '/projects/thumbnail/next-basket.jpg',
-        longThumbnail: '/projects/long/next-basket.jpg',
+        thumbnail: '/projects/thumbnail/next-basket.png',
+        longThumbnail: '/projects/thumbnail/next-basket.png',
         images: [
+            '/projects/images/next-basket.png',
             '/projects/images/next-basket-1.png',
-            '/projects/images/next-basket-2.png',
             '/projects/images/next-basket-3.png',
         ],
         liveUrl: '#',
@@ -225,8 +226,8 @@ export const PROJECTS: IProject[] = [
         - 🚀 Collaborated with cross-functional teams for timely feature delivery`,
     },
     {
-        title: 'Enterprise Chat Application',
-        slug: 'enterprise-chat',
+        title: 'Horace Learning - ',
+        slug: 'horace-learning',
         techStack: [
             'React Native',
             'WebSocket',
@@ -234,12 +235,12 @@ export const PROJECTS: IProject[] = [
             'Redux',
             'Real-time Communication',
         ],
-        thumbnail: '/projects/thumbnail/enterprise-chat.jpg',
-        longThumbnail: '/projects/long/enterprise-chat.jpg',
+        thumbnail: '/projects/thumbnail/horacelearning.jpg',
+        longThumbnail: '/projects/long/horacelearning.jpg',
         images: [
-            '/projects/images/enterprise-chat-1.png',
-            '/projects/images/enterprise-chat-2.png',
-            '/projects/images/enterprise-chat-3.png',
+            '/projects/images/horacelearning-1.png',
+            '/projects/images/horacelearning-2.png',
+            '/projects/images/horacelearning-3.png',
         ],
         year: 2023,
         description: `Built a robust chat feature for mobile application handling 50,000+ daily active users with real-time communication capabilities and optimized performance.`,
@@ -251,15 +252,15 @@ export const PROJECTS: IProject[] = [
         - 🛠️ Ensured high availability and real-time message delivery`,
     },
     {
-        title: 'Loan Management Platform',
-        slug: 'loan-management',
+        title: 'Tech Arewa - Community Platform',
+        slug: 'tech-arewa',
         techStack: ['React', 'Redux', 'Material-UI', 'Firebase', 'JavaScript'],
-        thumbnail: '/projects/thumbnail/loan-management.jpg',
-        longThumbnail: '/projects/long/loan-management.jpg',
+        thumbnail: '/projects/thumbnail/tech-arewa.jpg',
+        longThumbnail: '/projects/long/tech-arewa.jpg',
         images: [
-            '/projects/images/loan-management-1.png',
-            '/projects/images/loan-management-2.png',
-            '/projects/images/loan-management-3.png',
+            '/projects/images/tech-arewa-1.png',
+            '/projects/images/tech-arewa-2.png',
+            '/projects/images/tech-arewa-3.png',
         ],
         year: 2022,
         description: `Developed a comprehensive loan management platform from ideation to launch, handling 50,000+ users with scalable architecture and modern UI components.`,
@@ -271,19 +272,19 @@ export const PROJECTS: IProject[] = [
         - 📊 Implemented comprehensive user analytics and reporting`,
     },
     {
-        title: 'Company Website Optimization',
-        slug: 'website-optimization',
+        title: 'HealthTech - Healthcare Platform',
+        slug: 'healthtech',
         techStack: [
             'React',
             'SEO Optimization',
             'Accessibility',
             'Performance',
         ],
-        thumbnail: '/projects/thumbnail/website-optimization.jpg',
-        longThumbnail: '/projects/long/website-optimization.jpg',
+        thumbnail: '/projects/thumbnail/healthtech.jpg',
+        longThumbnail: '/projects/long/healthtech.jpg',
         images: [
-            '/projects/images/website-optimization-1.png',
-            '/projects/images/website-optimization-2.png',
+            '/projects/images/healthtech-1.png',
+            '/projects/images/healthtech-2.png',
         ],
         year: 2022,
         description: `Dramatically improved company website performance and accessibility, achieving Google Lighthouse scores improvement from 45 to 90+ through comprehensive optimization strategies.`,
