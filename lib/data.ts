@@ -143,7 +143,7 @@ export const PROJECTS: IProject[] = [
     {
         title: 'AgentZane - AI Interview Platform',
         slug: 'ai-interview-platform',
-        liveUrl: 'agentzane.ai',
+        liveUrl: 'https://agentzane.ai',
         year: 2024,
         description: `
       An innovative AI-powered interview software enabling automated candidate assessments through video and audio calls, AI-driven scoring, and CV analysis for Snaphunt Pte. Ltd. <br/> <br/>
@@ -198,7 +198,7 @@ export const PROJECTS: IProject[] = [
     {
         title: 'NEXT BASKET - Multi-Country E-commerce',
         slug: 'next-basket',
-        liveUrl: 'nextbasket.com',
+        liveUrl: 'https://nextbasket.com',
         techStack: [
             'React',
             'Next.js',
@@ -228,7 +228,7 @@ export const PROJECTS: IProject[] = [
     {
         title: 'Tech Arewa - Community Platform',
         slug: 'tech-arewa',
-        liveUrl: 'techarewa.vercel.app',
+        liveUrl: 'https://techarewa.vercel.app',
         techStack: [
             'React',
             'Redux',
@@ -259,7 +259,7 @@ export const PROJECTS: IProject[] = [
     {
         title: 'Realty Central - Property Platform',
         slug: 'realtycentral',
-        liveUrl: 'realty-central.vercel.app',
+        liveUrl: 'https://realty-central.vercel.app',
         techStack: [
             'React',
             'Next.js',
