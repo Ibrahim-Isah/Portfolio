@@ -226,74 +226,67 @@ export const PROJECTS: IProject[] = [
         - 🚀 Collaborated with cross-functional teams for timely feature delivery`,
     },
     {
-        title: 'Horace Learning - ',
-        slug: 'horace-learning',
-        techStack: [
-            'React Native',
-            'WebSocket',
-            'TypeScript',
-            'Redux',
-            'Real-time Communication',
-        ],
-        thumbnail: '/projects/thumbnail/horacelearning.png',
-        longThumbnail: '/projects/thumbnail/horacelearning.png',
-        images: [
-            '/projects/images/horacelearning-1.PNG',
-            '/projects/images/horacelearning-2.PNG',
-            '/projects/images/horacelearning-3.PNG',
-        ],
-        year: 2023,
-        description: `Built a robust chat feature for mobile application handling 50,000+ daily active users with real-time communication capabilities and optimized performance.`,
-        role: `Lead Mobile Developer <br/>
-        - 💬 Developed chat system serving 10K+ daily active users<br/>
-        - ⚡ Reduced message latency by 200ms through WebSocket optimization<br/>
-        - 📱 Built with React Native for cross-platform compatibility<br/>
-        - 🔄 Implemented efficient state management with Redux<br/>
-        - 🛠️ Ensured high availability and real-time message delivery`,
-    },
-    {
         title: 'Tech Arewa - Community Platform',
         slug: 'tech-arewa',
-        techStack: ['React', 'Redux', 'Material-UI', 'Firebase', 'JavaScript'],
-        thumbnail: '/projects/thumbnail/tech-arewa.jpg',
-        longThumbnail: '/projects/long/tech-arewa.jpg',
-        images: [
-            '/projects/images/tech-arewa-1.png',
-            '/projects/images/tech-arewa-2.png',
-            '/projects/images/tech-arewa-3.png',
-        ],
-        year: 2022,
-        description: `Developed a comprehensive loan management platform from ideation to launch, handling 50,000+ users with scalable architecture and modern UI components.`,
-        role: `Full-Stack Developer <br/>
-        - 🏦 Built complete loan management system from scratch<br/>
-        - 👥 Designed for 10K+ user capacity with scalable architecture<br/>
-        - 🎨 Created reusable UI components with Material-UI<br/>
-        - 🔥 Integrated Firebase for real-time data management<br/>
-        - 📊 Implemented comprehensive user analytics and reporting`,
-    },
-    {
-        title: 'HealthTech - Healthcare Platform',
-        slug: 'healthtech',
         techStack: [
             'React',
+            'Redux',
+            'NextJs',
+            'JavaScript',
+            'Typescript',
+            'TailwindCSS',
+        ],
+        thumbnail: '/projects/thumbnail/techarewa.png',
+        longThumbnail: '/projects/long/techarewa.png',
+        images: [
+            '/projects/images/techarewa-1.PNG',
+            '/projects/images/techarewa-2.PNG',
+            '/projects/images/techarewa-3.PNG',
+        ],
+        year: 2023,
+        role: `Lead Full‑Stack Engineer & Platform Strategist <br/>
+- 🏛 Spearheaded end-to-end architecture and design of a scalable community platform serving Tech Arewa’s regional ecosystem<br/>
+- 🔧 Built modular React/Redux UI components using Material‑UI to support dynamic forums, mentorship programs, and analytics dashboards<br/>
+- ⚡ Integrated Firebase for real‑time updates, user notifications, login/authentication, and seamless data sync across modules<br/>
+- 📈 Engineered for high concurrency—platform designed to support 10K+ users, community discussions, project showcases, and events<br/>
+- 📊 Developed admin dashboards and reporting tools to monitor user engagement, content activity, and platform health<br/>
+- 🌍 Collaborated closely with Tech Arewa leadership to align product features with goals in digital inclusion, skill‑building, and community networking across Northern Nigeria :contentReference[oaicite:1]{index=1}<br/>
+- 🤝 Facilitated integration of events modules to support hackathons, mentorship callouts, and regional tech festivals like Arewa Tech Fest and Ladies4Tech initiatives :contentReference[oaicite:2]{index=2}<br/>
+- 🧩 Implemented reusable design system enabling rapid future expansion—ideal for bootcamps, workshops, and scholarship programming like Arewa Rising and Tech Makers :contentReference[oaicite:3]{index=3}`,
+        description: `Crafted a high-impact social tech platform designed to elevate Northern Nigeria’s innovation ecosystem. Tech Arewa became a digital backbone powering community learning, mentorship, events, and inclusive growth initiatives. From ideation to deployment, the product scaled to serve tens of thousands—from bootcamp participants to regional startup cohorts—while aligning with broader efforts in scholarship, inclusion, and capacity‑building across Hausa‑speaking youth.`,
+    },
+    {
+        title: 'Realty Central - Property Platform',
+        slug: 'realtycentral',
+        techStack: [
+            'React',
+            'Next.js',
+            'TypeScript',
+            'TailwindCSS',
+            'Prisma',
+            'MySQL',
             'SEO Optimization',
             'Accessibility',
             'Performance',
         ],
-        thumbnail: '/projects/thumbnail/healthtech.jpg',
-        longThumbnail: '/projects/long/healthtech.jpg',
+        thumbnail: '/projects/thumbnail/realty-central.png',
+        longThumbnail: '/projects/long/realty-central.png',
         images: [
-            '/projects/images/healthtech-1.png',
-            '/projects/images/healthtech-2.png',
+            '/projects/images/realty-central-1.PNG',
+            '/projects/images/realty-central-2.PNG',
+            '/projects/images/realty-central-3.PNG',
+            '/projects/images/realty-central-4.PNG',
         ],
         year: 2022,
-        description: `Dramatically improved company website performance and accessibility, achieving Google Lighthouse scores improvement from 45 to 90+ through comprehensive optimization strategies.`,
-        role: `Frontend Performance Specialist <br/>
-        - 🚀 Improved Lighthouse scores from 45 to 90+<br/>
-        - ♿ Enhanced accessibility compliance and user experience<br/>
-        - 🔍 Implemented advanced SEO best practices<br/>
-        - ⚡ Optimized loading performance and Core Web Vitals<br/>
-        - 📱 Ensured responsive design across all device sizes`,
+        description: `Transformed Realty Central’s digital platform by drastically improving site performance, accessibility, and SEO—elevating the Google Lighthouse score from 45 to 90+, leading to better user experience, search visibility, and engagement.`,
+        role: `Lead Frontend Engineer & Product Optimizer <br/>
+- 🧠 Led frontend architecture and UI/UX design for an all-in-one real estate platform<br/>
+- 🚀 Improved Google Lighthouse scores from 45 to 90+ by optimizing performance, accessibility, and Core Web Vitals<br/>
+- 🧩 Built modular, scalable components using React for listing management, CRM, and marketing tools<br/>
+- ♿ Ensured full WCAG 2.1 accessibility compliance, making the platform inclusive and legally sound<br/>
+- 🔍 Integrated advanced SEO strategies to boost visibility and attract real estate traffic<br/>
+- 📈 Collaborated with product stakeholders to align technical solutions with real estate workflows<br/>
+- 📱 Delivered a seamless, responsive experience across devices for agents, clients, and admins alike<br/>`,
     },
 ];
 
